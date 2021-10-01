@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>>
 using namespace std;
 
+//conversion of binary tree to dla
 //Linked List code in cpp added
 struct Node {
 	int key;
@@ -16,6 +17,7 @@ Node* newNode(int key)
 	return (node);
 }
 
+//structure
 struct Node* flatten(struct Node* node)
 {
 	if(!node) 
