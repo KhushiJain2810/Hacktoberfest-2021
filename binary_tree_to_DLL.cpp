@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>>
 using namespace std;
 
+//Linked List code in cpp added
 struct Node {
 	int key;
 	Node *left, *right;
@@ -41,6 +42,7 @@ void inorder(struct Node* root)
 	inorder(root->right);
 }
 
+//Linked List code in cpp added
 int main()
 {
 	// Node* root = newNode(1);
